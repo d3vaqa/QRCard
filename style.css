@@ -1,0 +1,65 @@
+body {
+  font-family: "Outfit", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* align-self: center; */
+  /* position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto; */
+}
+
+/* .qrcard {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+} */
+
+.qrcard {
+  width: 300px;
+  height: 460px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  /* margin-top: 10%; */
+  padding: 8px;
+
+  box-shadow: 1px 3px 12px 0px rgba(51, 151, 194, 0.65);
+  -webkit-box-shadow: 1px 3px 12px 0px rgba(51, 151, 194, 0.65);
+  -moz-box-shadow: 1px 3px 12px 0px rgba(51, 151, 194, 0.65);
+}
+
+.image {
+  width: 280px;
+  height: 280px;
+}
+img {
+  border-radius: 15px;
+
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+.qrdetails {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.heading {
+  color: hsl(218, 44%, 22%);
+}
+
+.qrpragraph {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
